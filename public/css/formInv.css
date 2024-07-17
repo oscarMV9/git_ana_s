@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    background-image: url(../imagenes/IMG.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.fondo {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid;
+    color: #fff;
+    width: 320px;
+}
+
+.fondo form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.fondo input[type="text"],
+.fondo input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.cantidades {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.fondo input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fondo input[type="submit"]:hover {
+    background-color: #ddd;
+}
+
+.fondo a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.fondo a:hover {
+    text-decoration: underline;
+}
